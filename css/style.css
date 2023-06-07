@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-column{
+    flex-direction: column;
+}
+.banner-1 img{
+    object-fit: cover;
+}
+.banner-2 img{
+    object-fit: cover;
+}
+.banner-3 img{
+    object-fit: cover;
+}
+
+    /* HEADER */
+
+.logo-p{
+    margin-right: 190px;
+}
+
+/* ABOUT */
+
+
+.bg-color{
+    background-color: rgb(190, 165, 165);
+    border-radius: 20px;
+    padding-top: 10px;
+}
+.sofo:hover{
+    filter: drop-shadow(5px 5px 15px black);
+    transform: translateX(-7px);
+}
+.sofo{
+    transition: 0.4s all;
+}
+
+
+/* SERVICES */
+
+
+.services-rights{
+    margin-left: 90px;
+}
+.services-border{
+    border-color: black; 
+}
+
+
+/* FOOTER */
+
+
+.footer-logo{
+    font-size: 60px;
+} 
+footer{
+    margin-top: 60px;
+    background-color: black;
+}
+.text-color{
+    color: aquamarine;
+}
